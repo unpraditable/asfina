@@ -8,7 +8,7 @@
     <div class="container-fluid white-body">
         <div class="row">
             <div class="page-header">
-                <h2>Welcome!</h2>
+                <h2 class="text-centered">Welcome!</h2>
             </div>
         </div>
         <div class="row login-row">

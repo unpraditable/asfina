@@ -3,7 +3,7 @@
         <div class="row">
         <span class="col-xs-1" style="font-size:30px;cursor:pointer;line-height: 50px;" onclick="openNav()">&#9776;</span>
         <div class="navbar-header col-xs-10 flex-row">
-            <a class="navbar-brand" href="{{ url('/') }}">Asfina</a>
+            <a class="navbar-brand" href="{{ url('/home') }}">Asfina</a>
         </div>
         </div>
         
@@ -18,7 +18,7 @@
                         Edit Profile
                     </div>
                 </a>
-                <a href="{{ url('/') }}" class="flex-row">
+                <a href="{{ url('/home') }}" class="flex-row">
                     <i class="fa fa-money col-xs-2"></i> 
 
                     <div class="col-xs-10">

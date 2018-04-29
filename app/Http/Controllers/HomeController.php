@@ -35,4 +35,8 @@ class HomeController extends Controller {
 		return view('pages.home', compact('articles', 'photoAlbums', 'allocation', 'user_id'));
 	}
 
+	public function landing() {
+		return view('pages.landing');
+	}
+
 }
