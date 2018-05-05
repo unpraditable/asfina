@@ -22,25 +22,25 @@
                     <div class="col-xs-2">
                         <div class="legend productivity-legend"></div>
                     </div>
-                    <div class="col-xs-10">Productivity</div>
+                    <div class="col-xs-10"><a href="{{ url('expense/'.Auth::user()->id). '/productivity' }}">Productivity</a></div>
                 </div>
                 <div class="legend-wrapper">
                     <div class="col-xs-2">
                         <div class="legend investments-legend"></div>
                     </div>
-                    <div class="col-xs-10">Insurance & Investments</div>
+                    <div class="col-xs-10"><a href="{{ url('expense/'.Auth::user()->id). '/investments' }}">Insurance & Investments</a></div>
                 </div>
                 <div class="legend-wrapper">
                     <div class="col-xs-2">
                         <div class="legend savings-legend"></div>
                     </div>
-                    <div class="col-xs-10">Savings</div>
+                    <div class="col-xs-10"><a href="{{ url('expense/'.Auth::user()->id). '/savings' }}">Savings</a></div>
                 </div>
                 <div class="legend-wrapper">
                     <div class="col-xs-2">
                         <div class="legend charity-legend"></div>
                     </div>
-                    <div class="col-xs-10">Taxes/Charities/Other Expenses</div>
+                    <div class="col-xs-10"><a href="{{ url('expense/'.Auth::user()->id). '/charities' }}">Taxes/Charities/Other Expenses</a></div>
                 </div>
             </div>
             

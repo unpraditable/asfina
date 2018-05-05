@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <div class="col-xs-12">
+    <div class="col-xs-12" style="margin-top: 30px;">
         <a href="{{ url('expense/'.Auth::user()->id). '/' .$type. '/'. $expense->id. '/edit' }}" class="btn btn-login">
             Edit Expense
         </a>
