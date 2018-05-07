@@ -53,15 +53,17 @@ return [
         ],
 
         'mysql' => [
-            'driver'    => 'mysql',
-            'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'forge'),
-            'username'  => env('DB_USERNAME', 'forge'),
-            'password'  => env('DB_PASSWORD', ''),
-            'charset'   => 'utf8',
+            'driver' => 'mysql',
+            'host' => env('DB_HOST', 'db4free.net'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_DATABASE', 'asfina'),
+            'username' => env('DB_USERNAME', 'asfina'),
+            'password' => env('DB_PASSWORD', 'luminosite'),
+            'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
-            'prefix'    => '',
-            'strict'    => false,
+            'prefix' => '',
+            'strict' => true,
+            'engine' => null,
         ],
 
         'pgsql' => [
